@@ -11,3 +11,5 @@ pool:
 
 steps:
 - task: AzureStaticWebApp@0
+  inputs:      
+    azure_static_web_apps_api_token: $(deployment_token)
